@@ -20,7 +20,7 @@ We will use:
   - `statistics`
   - `textwrap`
   - `networkx`
-  - `matplotlib
+  - `matplotlib`
 
 You can install the required libraries using pip:
 
