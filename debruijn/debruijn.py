@@ -259,7 +259,13 @@ def get_starting_nodes(graph: DiGraph) -> List[str]:
     :param graph: (nx.DiGraph) A directed graph object
     :return: (list) A list of all nodes without predecessors
     """
-    pass
+    starting_nodes = []
+    
+    for node in graph.nodes():
+        if len(list(graph.predecessors(node))) == 0:
+            starting_nodes.append(node)
+    
+    return starting_nodes
 
 
 def get_sink_nodes(graph: DiGraph) -> List[str]:
@@ -268,7 +274,13 @@ def get_sink_nodes(graph: DiGraph) -> List[str]:
     :param graph: (nx.DiGraph) A directed graph object
     :return: (list) A list of all nodes without successors
     """
-    pass
+    sink_nodes = []
+    
+    for node in graph.nodes():
+        if len(list(graph.successors(node))) == 0:
+            sink_nodes.append(node)
+    
+    return sink_nodes
 
 
 def get_contigs(
@@ -281,7 +293,18 @@ def get_contigs(
     :param ending_nodes: (list) A list of nodes without successors
     :return: (list) List of [contiguous sequence and their length]
     """
-    pass
+    contigs = []
+
+    for start in starting_nodes:
+        for sink in sink_nodes:
+            if has_path(graph, start, sink):
+                for path in all_simple_paths(graph, start, sink):
+                    contig = path[0]
+                    for node in path[1:]:
+                        contig += node[-1]
+                    contigs.append((contig, len(contig)))
+
+    return contigs
 
 
 def save_contigs(contigs_list: List[str], output_file: Path) -> None:
@@ -290,7 +313,10 @@ def save_contigs(contigs_list: List[str], output_file: Path) -> None:
     :param contig_list: (list) List of [contiguous sequence and their length]
     :param output_file: (Path) Path to the output file
     """
-    pass
+    with open(output_file, 'w') as file:
+        for i, (contig, length) in enumerate(contigs):
+            file.write(f">contig_{i} len={length}\n")
+            file.write(textwrap.fill(contig, width=80) + '\n')
 
 
 def draw_graph(graph: DiGraph, graphimg_file: Path) -> None:  # pragma: no cover
@@ -337,17 +363,46 @@ def main() -> None:  # pragma: no cover
 
 if __name__ == "__main__":  # pragma: no cover
     #main()
-    kmer_size = 5
-    fastq_file_path = Path("../data/eva71_two_reads.fq")
-
-    kmer_dict = build_kmer_dict(fastq_file_path, kmer_size)
-
-    kmer_graph = build_graph(kmer_dict)
-
-    print("Nombre de noeuds:", len(kmer_graph.nodes()))
-    print("Nombre d'arcs:", len(kmer_graph.edges()))
-
-    for edge in kmer_graph.edges(data=True):
-        print(f"{edge[0]} -> {edge[1]} [weight={edge[2]['weight']}]")
-
+    fastq_file_path = Path("../data/eva71_two_reads.fq")  # Chemin vers le fichier FASTQ
+    kmer_size = 10  # Taille des k-mers
     
+    # Construire le dictionnaire de k-mers
+    print("Building k-mer dictionary...")
+    kmer_dict = build_kmer_dict(fastq_file_path, kmer_size)
+    
+    # Afficher seulement les 5 premiers k-mers et leurs occurrences
+    print("\nSample of k-mer dictionary (first 5 entries):")
+    for i, (kmer, count) in enumerate(kmer_dict.items()):
+        if i >= 5:  # Limiter à 5 résultats
+            break
+        print(f"{kmer}: {count}")
+    
+    # Construire le graphe orienté des k-mers
+    print("\nBuilding De Bruijn graph...")
+    graph = build_graph(kmer_dict)
+    
+    # Obtenir les nœuds d'entrée et de sortie
+    print("\nFinding starting and sink nodes...")
+    start_nodes = get_starting_nodes(graph)
+    sink_nodes = get_sink_nodes(graph)
+    
+    # Afficher un échantillon des nœuds d'entrée et de sortie
+    print(f"\nSample of starting nodes (first 5): {start_nodes[:5]}")
+    print(f"Sample of sink nodes (first 5): {sink_nodes[:5]}")
+    
+    # Obtenir les contigs
+    print("\nGenerating contigs...")
+    contigs = get_contigs(graph, start_nodes, sink_nodes)
+    
+    # Afficher seulement les 3 premiers contigs
+    print("\nSample of contigs (first 3):")
+    for i, (contig, length) in enumerate(contigs):
+        if i >= 3:  # Limiter à 3 résultats
+            break
+        print(f"Contig_{i}: {contig}, length: {length}")
+    
+    # Sauvegarder les contigs dans un fichier FASTA
+    output_file = Path("../results/eva71_contigs.fasta")
+    save_contigs(contigs, output_file)
+    
+    print(f"\nContigs saved to {output_file}")
