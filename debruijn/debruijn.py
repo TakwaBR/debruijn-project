@@ -16,6 +16,7 @@
 import argparse
 import os
 import sys
+from statistics import stdev
 from pathlib import Path
 from networkx import (
     DiGraph,
@@ -177,7 +178,22 @@ def remove_paths(
     :param delete_sink_node: (boolean) True->We remove the last node of a path
     :return: (nx.DiGraph) A directed graph object
     """
-    pass
+
+    for path in path_list:
+        nodes_to_remove = path[:]
+        if not path:
+            continue
+
+        if not delete_entry_node:
+            nodes_to_remove = nodes_to_remove[1:]
+
+        if not delete_sink_node and path:
+            nodes_to_remove = nodes_to_remove[:-1]
+
+        graph.remove_nodes_from(nodes_to_remove)
+
+    return graph
+ 
 
 
 def select_best_path(
@@ -198,7 +214,26 @@ def select_best_path(
     :param delete_sink_node: (boolean) True->We remove the last node of a path
     :return: (nx.DiGraph) A directed graph object
     """
-    pass
+
+    weight_stdev = stdev(weight_avg_list)
+    length_stdev = stdev(path_length)
+
+    if weight_stdev > 0:
+        best_index = weight_avg_list.index(max(weight_avg_list))
+        
+    else:
+        if weight_stdev > 0:
+            best_index = path_length.index(max(path_length))
+        elif length_stdev == 0:
+            best_index = random.randint(0, len(path_list) - 1)
+
+    best_path = path_list[best_index]
+    
+    for path in path_list:
+        if path != best_path:
+            graph = remove_paths(graph, [path], delete_entry_node, delete_sink_node)
+
+    return graph
 
 
 def path_average_weight(graph: DiGraph, path: List[str]) -> float:
@@ -221,7 +256,16 @@ def solve_bubble(graph: DiGraph, ancestor_node: str, descendant_node: str) -> Di
     :param descendant_node: (str) A downstream node in the graph
     :return: (nx.DiGraph) A directed graph object
     """
-    pass
+    all_paths = list(all_simple_paths(graph, ancestor_node, descendant_node))
+
+    path_lengths = [len(path)-1 for path in all_paths]
+    path_weights = [path_average_weight(graph, path) for path in all_paths]
+
+    graph = select_best_path(
+        graph, all_paths, path_lengths, path_weights, delete_entry_node=False, delete_sink_node=False
+    )
+
+    return graph
 
 
 def simplify_bubbles(graph: DiGraph) -> DiGraph:
@@ -230,7 +274,34 @@ def simplify_bubbles(graph: DiGraph) -> DiGraph:
     :param graph: (nx.DiGraph) A directed graph object
     :return: (nx.DiGraph) A directed graph object
     """
-    pass
+    bubble = False
+    ancestor_node = None
+    target_node = None
+    compt = 0
+
+    for node in graph.nodes():
+        predecessors_list = list(graph.predecessors(node))
+
+        if len(predecessors_list) > 1:
+            for i in range(len(predecessors_list)):
+                for j in range(i + 1, len(predecessors_list)):
+                    ancestor = lowest_common_ancestor(graph, predecessors_list[i], predecessors_list[j])
+                    if ancestor is not None:
+                        bubble = True
+                        ancestor_node = ancestor
+                        target_node = node
+                        break
+                if bubble:
+                    break
+        if bubble:
+            break
+
+    if bubble:
+        compt += 1
+        graph = simplify_bubbles(solve_bubble(graph, ancestor_node, target_node))
+    
+    print(f"{compt} bubble(s) has been removed.\n")
+    return graph
 
 
 def solve_entry_tips(graph: DiGraph, starting_nodes: List[str]) -> DiGraph:
@@ -296,7 +367,7 @@ def get_contigs(
     contigs = []
 
     for start in starting_nodes:
-        for sink in sink_nodes:
+        for sink in ending_nodes:
             if has_path(graph, start, sink):
                 for path in all_simple_paths(graph, start, sink):
                     contig = path[0]
@@ -351,20 +422,10 @@ def main() -> None:  # pragma: no cover
     Main program function
     """
     # Get arguments
-    args = get_arguments()
-
-    # Fonctions de dessin du graphe
-    # A decommenter si vous souhaitez visualiser un petit
-    # graphe
-    # Plot the graph
-    # if args.graphimg_file:
-    #     draw_graph(graph, args.graphimg_file)
-
-
-if __name__ == "__main__":  # pragma: no cover
-    #main()
-    fastq_file_path = Path("../data/eva71_two_reads.fq")  # Chemin vers le fichier FASTQ
-    kmer_size = 10  # Taille des k-mers
+    #args = get_arguments()
+    
+    fastq_file_path = Path("../data/eva71_hundred_reads.fq") 
+    kmer_size = 15  # Taille des k-mers
     
     # Construire le dictionnaire de k-mers
     print("Building k-mer dictionary...")
@@ -403,6 +464,20 @@ if __name__ == "__main__":  # pragma: no cover
     
     # Sauvegarder les contigs dans un fichier FASTA
     output_file = Path("../results/eva71_contigs.fasta")
-    save_contigs(contigs, output_file)
+    #save_contigs(contigs, output_file)
     
     print(f"\nContigs saved to {output_file}")
+
+    print("\nSimplifying bubbles in the De Bruijn graph...")
+    graph = simplify_bubbles(graph)
+    
+    # Fonctions de dessin du graphe
+    # A decommenter si vous souhaitez visualiser un petit
+    # graphe
+    # Plot the graph
+    # if args.graphimg_file:
+    #     draw_graph(graph, args.graphimg_file)
+
+
+if __name__ == "__main__":  # pragma: no cover
+    main()
