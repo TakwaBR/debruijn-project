@@ -1,0 +1,3587 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: ../data/eva71.fna
+           1 sequences; 7,408 total letters
+
+
+
+Query= contig_0 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TCAGAGCTCTAGAGTTGGTTCTGAGAGAGATCGGTTACTCGGAGGAGGCTGTGTCACTCA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  6673  TCAGAGCTCTAGAGTTGGTTCTGAGAGAGATCGGTTACTCGGAGGAGGCTGTGTCACTCA  6732
+
+Query  61    TAGAAGGGATCAATCACACCCACCACGTGTACCGAAACAA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  6733  TAGAAGGGATCAATCACACCCACCACGTGTACCGAAACAA  6772
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_1 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TTTGAATTACAACATCCATATGTTCTTGATGCTGGAATTCCAATATCTCAGTTGACAGTG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1422  TTTGAATTACAACATCCATATGTTCTTGATGCTGGAATTCCAATATCTCAGTTGACAGTG  1481
+
+Query  61    TGCCCTCACCAGTGGATCAATTTACGAACCAACAATTGTG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1482  TGCCCTCACCAGTGGATCAATTTACGAACCAACAATTGTG  1521
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_2 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     CCCACGAAGCCAGGACAGTGTgggggggTGGTTACCTCAGTTGGTAAGATCATTGGAATC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5808  CCCACGAAGCCAGGACAGTGTGGGGGGGTGGTTACCTCAGTTGGTAAGATCATTGGAATC  5867
+
+Query  61    CACATTGGCGGGAATGGACGCCAGGCCTTTTGCGCTGGCC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5868  CACATTGGCGGGAATGGACGCCAGGCCTTTTGCGCTGGCC  5907
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_3 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1    ATCCTGACAAGTTTGCGAACCCTGTGAAGGACATCTTTACTGAAATGGCAGCGCCCTTAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  889  ATCCTGACAAGTTTGCGAACCCTGTGAAGGACATCTTTACTGAAATGGCAGCGCCCTTAA  948
+
+Query  61   AGTCTCCCTCTGCTGAAGCATGTGGCTATAGCGACCGAGT  100
+            ||||||||||||||||||||||||||||||||||||||||
+Sbjct  949  AGTCTCCCTCTGCTGAAGCATGTGGCTATAGCGACCGAGT  988
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_4 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GAACAGTGGCAGGCGGCACAGGCACAGAGAACAGTCACCCTCCTTATAAACAAACCCAAC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1348  GAACAGTGGCAGGCGGCACAGGCACAGAGAACAGTCACCCTCCTTATAAACAAACCCAAC  1407
+
+Query  61    CCGGCGCTGATGGATTTGAATTACAACATCCATATGTTCT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1408  CCGGCGCTGATGGATTTGAATTACAACATCCATATGTTCT  1447
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_5 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     ACTTCGCCTTGTCTCTTTTGAGGCGCAACATTAGACAAGCGCAAACTGACCAAGGACACT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5401  ACTTCGCCTTGTCTCTTTTGAGGCGCAACATTAGACAAGCGCAAACTGACCAAGGACACT  5460
+
+Query  61    TCACCATGCTAGGAGTGCGAGATCGCCTAGCCATCCTGCC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5461  TCACCATGCTAGGAGTGCGAGATCGCCTAGCCATCCTGCC  5500
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_6 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     CCACTTATGTAAAGGATGAGCTTAGTTCTCTAGATAAGATCAGAAAAGGGGAGTCTCGCC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  6400  CCACTTATGTAAAGGATGAGCTTAGTTCTCTAGATAAGATCAGAAAAGGGGAGTCTCGCC  6459
+
+Query  61    TGATTGAGGCTAGCAGCTTAAATGATCCTGTCTACCCTAG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  6460  TGATTGAGGCTAGCAGCTTAAATGATCCTGTCTACCCTAG  6499
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_7 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TGAGCTTAGTTCTCTAGATAAGATCAGAAAAGGGGAGTCTCGCCTGATTGAGGCTAGCAG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  6416  TGAGCTTAGTTCTCTAGATAAGATCAGAAAAGGGGAGTCTCGCCTGATTGAGGCTAGCAG  6475
+
+Query  61    CTTAAATGATCCTGTCTACCCTAGATTGACTTTTGGACAC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  6476  CTTAAATGATCCTGTCTACCCTAGATTGACTTTTGGACAC  6515
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_8 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     ATCCGACCCACCAGCACAAGTCTCAGTGCCATTTATGTCACCTGCAAGCGCATACCAATG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2987  ATCCGACCCACCAGCACAAGTCTCAGTGCCATTTATGTCACCTGCAAGCGCATACCAATG  3046
+
+Query  61    GTTTTATGACGGATACCCTACATTTGGAGAGCACAAGCAA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3047  GTTTTATGACGGATACCCTACATTTGGAGAGCACAAGCAA  3086
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_9 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGACATACCAGTCGCATCTTGATCAAGCACTTCTGTATCCCCGGACCGAGTATCAATAGA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  144  TGACATACCAGTCGCATCTTGATCAAGCACTTCTGTATCCCCGGACCGAGTATCAATAGA  203
+
+Query  61   CTGTGCACACGGTTGAAGGAGAAAACGTCCGTTACCCGGC  100
+            ||||||||||||||||||||||||||||||||||||||||
+Sbjct  204  CTGTGCACACGGTTGAAGGAGAAAACGTCCGTTACCCGGC  243
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_10 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GAACTATTTGTTCAAATCCAACCCAAACTATGCTGGTGATTCCATTAAACCAACTGGTAC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3245  GAACTATTTGTTCAAATCCAACCCAAACTATGCTGGTGATTCCATTAAACCAACTGGTAC  3304
+
+Query  61    CAGCCGAACGGCAATCACTACGCTCGGGAAATTCGGTCAG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3305  CAGCCGAACGGCAATCACTACGCTCGGGAAATTCGGTCAG  3344
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_11 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     CTGGTGTGTGGTAAGGCTATTCAGCTGAGAGACAGGAAGTCCAAAGTGAGATATAGCGTC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4926  CTGGTGTGTGGTAAGGCTATTCAGCTGAGAGACAGGAAGTCCAAAGTGAGATATAGCGTC  4985
+
+Query  61    GACACCGTGGTATCGGAACTGATCAGAGAGTACAACAATA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  4986  GACACCGTGGTATCGGAACTGATCAGAGAGTACAACAATA  5025
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_12 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TTACAACATCCATATGTTCTTGATGCTGGAATTCCAATATCTCAGTTGACAGTGTGCCCT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1428  TTACAACATCCATATGTTCTTGATGCTGGAATTCCAATATCTCAGTTGACAGTGTGCCCT  1487
+
+Query  61    CACCAGTGGATCAATTTACGAACCAACAATTGTGCCACCA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1488  CACCAGTGGATCAATTTACGAACCAACAATTGTGCCACCA  1527
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_13 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1    ATCCAGTGTCAAACAGAGCTATTGTATATCTCTTTGTTGGATTCACACCTCTCACTCTTG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  638  ATCCAGTGTCAAACAGAGCTATTGTATATCTCTTTGTTGGATTCACACCTCTCACTCTTG  697
+
+Query  61   AAACGTTACACACCCTCAATTACATTATACTGCTGAACAC  100
+            ||||||||||||||||||||||||||||||||||||||||
+Sbjct  698  AAACGTTACACACCCTCAATTACATTATACTGCTGAACAC  737
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_14 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     AGTGGTAAACCCACACACAGAACCATGATGTATAACTTCCCCACGAAGCCAGGACAGTGT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5769  AGTGGTAAACCCACACACAGAACCATGATGTATAACTTCCCCACGAAGCCAGGACAGTGT  5828
+
+Query  61    gggggggTGGTTACCTCAGTTGGTAAGATCATTGGAATCC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5829  GGGGGGGTGGTTACCTCAGTTGGTAAGATCATTGGAATCC  5868
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_15 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     ACTCGTTGCGGTATTGCCCGAGTATGTCATTGGAACAGTGGCAGGCGGCACAGGCACAGA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1316  ACTCGTTGCGGTATTGCCCGAGTATGTCATTGGAACAGTGGCAGGCGGCACAGGCACAGA  1375
+
+Query  61    GAACAGTCACCCTCCTTATAAACAAACCCAACCCGGCGCT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1376  GAACAGTCACCCTCCTTATAAACAAACCCAACCCGGCGCT  1415
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_16 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GCACTAATCAGTTCTTAACCACGGATGATGGTGTGTCAGCACCTATATTGCCAAATTTCC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1738  GCACTAATCAGTTCTTAACCACGGATGATGGTGTGTCAGCACCTATATTGCCAAATTTCC  1797
+
+Query  61    ACCCCACCCCGTGCATTCACATACCTGGCGAGGTTAGAAA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1798  ACCCCACCCCGTGCATTCACATACCTGGCGAGGTTAGAAA  1837
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_17 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TACCGGGTTCACTCTTTGCATTTGACTACTCAGGATATGATGCAAGCCTTAGTCCTGTGT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  6610  TACCGGGTTCACTCTTTGCATTTGACTACTCAGGATATGATGCAAGCCTTAGTCCTGTGT  6669
+
+Query  61    GGTTCAGAGCTCTAGAGTTGGTTCTGAGAGAGATCGGTTA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  6670  GGTTCAGAGCTCTAGAGTTGGTTCTGAGAGAGATCGGTTA  6709
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_18 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     AGTCTCAGTGCCATTTATGTCACCTGCAAGCGCATACCAATGGTTTTATGACGGATACCC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3005  AGTCTCAGTGCCATTTATGTCACCTGCAAGCGCATACCAATGGTTTTATGACGGATACCC  3064
+
+Query  61    TACATTTGGAGAGCACAAGCAAGAGAAGGATCTCGAGTAT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3065  TACATTTGGAGAGCACAAGCAAGAGAAGGATCTCGAGTAT  3104
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_19 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     AACCAGGGAAGACCATCTGGGTAGAGCATAAATTAATCAATGTACTAGATGCAGTTGAGT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5512  AACCAGGGAAGACCATCTGGGTAGAGCATAAATTAATCAATGTACTAGATGCAGTTGAGT  5571
+
+Query  61    TGGTGGATGAGCAAGGTGTAAACTTGGAACTCACACTGGT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5572  TGGTGGATGAGCAAGGTGTAAACTTGGAACTCACACTGGT  5611
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_20 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     ATAAGCAACAGGTGGTCGCGGTCATGGATGATCTCTGCCAGAACCCGGACGGAAAAGACA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4576  ATAAGCAACAGGTGGTCGCGGTCATGGATGATCTCTGCCAGAACCCGGACGGAAAAGACA  4635
+
+Query  61    TGTCCCTATTTTGTCAAATGGTTTCTACAGTAGATTTTGT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  4636  TGTCCCTATTTTGTCAAATGGTTTCTACAGTAGATTTTGT  4675
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_21 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TGGACACCTTTATGAAGTGTTTCACGCCAACCCAGGGACTGTAACAGGATCTGCAGTTGG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  6509  TGGACACCTTTATGAAGTGTTTCACGCCAACCCAGGGACTGTAACAGGATCTGCAGTTGG  6568
+
+Query  61    GTGCAACCCTGATGTATTTTGGAGCAAGTTACCAATTTTG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  6569  GTGCAACCCTGATGTATTTTGGAGCAAGTTACCAATTTTG  6608
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_22 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GAAGGGCTTTAGCAATTCCAAATTTGGAGAACTTGAGAAGAAATTGGCTCGAGTTATTTT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  7264  GAAGGGCTTTAGCAATTCCAAATTTGGAGAACTTGAGAAGAAATTGGCTCGAGTTATTTT  7323
+
+Query  61    AAACTTACAGCTCAATGCTGAACCCCACCAGAAATCTGGT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  7324  AAACTTACAGCTCAATGCTGAACCCCACCAGAAATCTGGT  7363
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_23 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TCGGCTCCGAAGGGGCTGTTGAGAAGATCTTGAAGAACTTGGTGAAGCTAATTTCAGCCT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3877  TCGGCTCCGAAGGGGCTGTTGAGAAGATCTTGAAGAACTTGGTGAAGCTAATTTCAGCCT  3936
+
+Query  61    TAGTTATAGTCATCAGAAGTGATTATGATATGGTCACCCT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3937  TAGTTATAGTCATCAGAAGTGATTATGATATGGTCACCCT  3976
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_24 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GTGGCGGTATTCTTAGATGCCAACACGGTGTGGTGGGAATTGTCTCCACTGGCGGAAGTG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3658  GTGGCGGTATTCTTAGATGCCAACACGGTGTGGTGGGAATTGTCTCCACTGGCGGAAGTG  3717
+
+Query  61    GCCTTGTGGGATTTGCTGACGTTAGAGATCTTCTGTGGCT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3718  GCCTTGTGGGATTTGCTGACGTTAGAGATCTTCTGTGGCT  3757
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_25 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     CCAATGCTAGTAACATCATAGTCCCCACAGTTTCAGATTCAGATGCAATTCGCAGGCGAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4741  CCAATGCTAGTAACATCATAGTCCCCACAGTTTCAGATTCAGATGCAATTCGCAGGCGAT  4800
+
+Query  61    TCTATATGGACTGCGATATAGAAGTGACAGATTCTTACAA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  4801  TCTATATGGACTGCGATATAGAAGTGACAGATTCTTACAA  4840
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_26 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TCACCCCAGCTTTACCTGCACCCACAGGCCCAGACACCCAAGTGAGCAGTCATCGCTTAG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2497  TCACCCCAGCTTTACCTGCACCCACAGGCCCAGACACCCAAGTGAGCAGTCATCGCTTAG  2556
+
+Query  61    ACACTGGAAAAGTACCAGCACTTCAAGCCGCCGAAATCGG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  2557  ACACTGGAAAAGTACCAGCACTTCAAGCCGCCGAAATCGG  2596
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_27 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     ACCTCCAGGATGAAGTTATATATGGATAAGTATGGGTTGGACTTGCCTAATTCCACTTAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  6348  ACCTCCAGGATGAAGTTATATATGGATAAGTATGGGTTGGACTTGCCTAATTCCACTTAT  6407
+
+Query  61    GTAAAGGATGAGCTTAGTTCTCTAGATAAGATCAGAAAAG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  6408  GTAAAGGATGAGCTTAGTTCTCTAGATAAGATCAGAAAAG  6447
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_28 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1    CTCTGCAGCGGAACCGACTACTTTGGGTGTCCGTGTTTCTTTTTATTCTTGTATTGGCTG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  529  CTCTGCAGCGGAACCGACTACTTTGGGTGTCCGTGTTTCTTTTTATTCTTGTATTGGCTG  588
+
+Query  61   CTTATGGTGACAATTAAAGAATTGTTACCATATAGCTATT  100
+            ||||||||||||||||||||||||||||||||||||||||
+Sbjct  589  CTTATGGTGACAATTAAAGAATTGTTACCATATAGCTATT  628
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_29 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     CGGCCGATGCGCAATCAGAACTATTTGTTCAAATCCAACCCAAACTATGCTGGTGATTCC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3228  CGGCCGATGCGCAATCAGAACTATTTGTTCAAATCCAACCCAAACTATGCTGGTGATTCC  3287
+
+Query  61    ATTAAACCAACTGGTACCAGCCGAACGGCAATCACTACGC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3288  ATTAAACCAACTGGTACCAGCCGAACGGCAATCACTACGC  3327
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_30 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TGGTTGCAGTTGTGTCTCTTGTTTATGTCATTTATAAGCTGTTTGCCGGGTTCCAGGGTG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5266  TGGTTGCAGTTGTGTCTCTTGTTTATGTCATTTATAAGCTGTTTGCCGGGTTCCAGGGTG  5325
+
+Query  61    CTTACTCTGGAGCGCCCAAGCCCATTCTCAAGAAGCCCGT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5326  CTTACTCTGGAGCGCCCAAGCCCATTCTCAAGAAGCCCGT  5365
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_31 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TCTTGAACCTTAGTGGTAAACCCACACACAGAACCATGATGTATAACTTCCCCACGAAGC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5758  TCTTGAACCTTAGTGGTAAACCCACACACAGAACCATGATGTATAACTTCCCCACGAAGC  5817
+
+Query  61    CAGGACAGTGTgggggggTGGTTACCTCAGTTGGTAAGAT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5818  CAGGACAGTGTGGGGGGGTGGTTACCTCAGTTGGTAAGAT  5857
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_32 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1    GATGGGCTCCCAGGTCTCCACACAGCGATCCGGCTCGCATGAGAATTCCAACTCAGCCAC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  743  GATGGGCTCCCAGGTCTCCACACAGCGATCCGGCTCGCATGAGAATTCCAACTCAGCCAC  802
+
+Query  61   GGAAGGCTCCACTATAAATTACACAACCATTAATTACTAC  100
+            ||||||||||||||||||||||||||||||||||||||||
+Sbjct  803  GGAAGGCTCCACTATAAATTACACAACCATTAATTACTAC  842
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_33 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GAGCAGGGGGTATCTGATTACATCAAAGGTCTCGGTCGAGCCTTCGGCACAGGTTTCACT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3774  GAGCAGGGGGTATCTGATTACATCAAAGGTCTCGGTCGAGCCTTCGGCACAGGTTTCACT  3833
+
+Query  61    GACGCAGTGTCTAGGGAAGTGGAAGCGTTGAAGAACCACT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3834  GACGCAGTGTCTAGGGAAGTGGAAGCGTTGAAGAACCACT  3873
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_34 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GTTTGCCGGGTTCCAGGGTGCTTACTCTGGAGCGCCCAAGCCCATTCTCAAGAAGCCCGT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5306  GTTTGCCGGGTTCCAGGGTGCTTACTCTGGAGCGCCCAAGCCCATTCTCAAGAAGCCCGT  5365
+
+Query  61    GTTAAGAACAGCCACGGTCCAAGGGCCCAGCTTAGACTTC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5366  GTTAAGAACAGCCACGGTCCAAGGGCCCAGCTTAGACTTC  5405
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_35 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TAATTCCACTTATGTAAAGGATGAGCTTAGTTCTCTAGATAAGATCAGAAAAGGGGAGTC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  6395  TAATTCCACTTATGTAAAGGATGAGCTTAGTTCTCTAGATAAGATCAGAAAAGGGGAGTC  6454
+
+Query  61    TCGCCTGATTGAGGCTAGCAGCTTAAATGATCCTGTCTAC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  6455  TCGCCTGATTGAGGCTAGCAGCTTAAATGATCCTGTCTAC  6494
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_36 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TTCAACAAGATCAGTAAGTTCATTGACTGGCTTAAAGAGAAGATCATTCCAGCTGCCAAA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4140  TTCAACAAGATCAGTAAGTTCATTGACTGGCTTAAAGAGAAGATCATTCCAGCTGCCAAA  4199
+
+Query  61    GAGAAAGTTGAGTTTTTGAACAACCTAAAACAGCTCCCCT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  4200  GAGAAAGTTGAGTTTTTGAACAACCTAAAACAGCTCCCCT  4239
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_37 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1    GTGACAATTAAAGAATTGTTACCATATAGCTATTGGATTGGCCATCCAGTGTCAAACAGA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  595  GTGACAATTAAAGAATTGTTACCATATAGCTATTGGATTGGCCATCCAGTGTCAAACAGA  654
+
+Query  61   GCTATTGTATATCTCTTTGTTGGATTCACACCTCTCACTC  100
+            ||||||||||||||||||||||||||||||||||||||||
+Sbjct  655  GCTATTGTATATCTCTTTGTTGGATTCACACCTCTCACTC  694
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_38 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GAAACCACCCTTGATAGTTTCTTCAGCAGAGCAGGCTTAGTTGGGGAGATAGATCTTCCT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2667  GAAACCACCCTTGATAGTTTCTTCAGCAGAGCAGGCTTAGTTGGGGAGATAGATCTTCCT  2726
+
+Query  61    CTAAAGGGCACCACCAATCCGAACGGGTATGCCAACTGGG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  2727  CTAAAGGGCACCACCAATCCGAACGGGTATGCCAACTGGG  2766
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_39 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1    ACAATTAAAGAATTGTTACCATATAGCTATTGGATTGGCCATCCAGTGTCAAACAGAGCT  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  598  ACAATTAAAGAATTGTTACCATATAGCTATTGGATTGGCCATCCAGTGTCAAACAGAGCT  657
+
+Query  61   ATTGTATATCTCTTTGTTGGATTCACACCTCTCACTCTTG  100
+            ||||||||||||||||||||||||||||||||||||||||
+Sbjct  658  ATTGTATATCTCTTTGTTGGATTCACACCTCTCACTCTTG  697
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_40 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GCTCAAGGGTGTGACACCATTGCTCGATGTAACTGCCAAACCGGAGTGTATTACTGTAAC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3468  GCTCAAGGGTGTGACACCATTGCTCGATGTAACTGCCAAACCGGAGTGTATTACTGTAAC  3527
+
+Query  61    TCTCGCAGAAAACACTATCCAGTCAGTTTTTCGAAACCTA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3528  TCTCGCAGAAAACACTATCCAGTCAGTTTTTCGAAACCTA  3567
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_41 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TCATAGTCCCCACAGTTTCAGATTCAGATGCAATTCGCAGGCGATTCTATATGGACTGCG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4756  TCATAGTCCCCACAGTTTCAGATTCAGATGCAATTCGCAGGCGATTCTATATGGACTGCG  4815
+
+Query  61    ATATAGAAGTGACAGATTCTTACAAGACAGACCTCGGTCG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  4816  ATATAGAAGTGACAGATTCTTACAAGACAGACCTCGGTCG  4855
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_42 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTAGGTGTGACATACCAGTCGCATCTTGATCAAGCACTTCTGTATCCCCGGACCGAGTA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  136  AGTAGGTGTGACATACCAGTCGCATCTTGATCAAGCACTTCTGTATCCCCGGACCGAGTA  195
+
+Query  61   TCAATAGACTGTGCACACGGTTGAAGGAGAAAACGTCCGT  100
+            ||||||||||||||||||||||||||||||||||||||||
+Sbjct  196  TCAATAGACTGTGCACACGGTTGAAGGAGAAAACGTCCGT  235
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_43 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TAAGAGATGCAGCCCACTGGTGTGTGGTAAGGCTATTCAGCTGAGAGACAGGAAGTCCAA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4910  TAAGAGATGCAGCCCACTGGTGTGTGGTAAGGCTATTCAGCTGAGAGACAGGAAGTCCAA  4969
+
+Query  61    AGTGAGATATAGCGTCGACACCGTGGTATCGGAACTGATC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  4970  AGTGAGATATAGCGTCGACACCGTGGTATCGGAACTGATC  5009
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_44 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     AGTGGAAGCGTTGAAGAACCACTTAATCGGCTCCGAAGGGGCTGTTGAGAAGATCTTGAA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3851  AGTGGAAGCGTTGAAGAACCACTTAATCGGCTCCGAAGGGGCTGTTGAGAAGATCTTGAA  3910
+
+Query  61    GAACTTGGTGAAGCTAATTTCAGCCTTAGTTATAGTCATC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3911  GAACTTGGTGAAGCTAATTTCAGCCTTAGTTATAGTCATC  3950
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_45 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TATATTGCCAAATTTCCACCCCACCCCGTGCATTCACATACCTGGCGAGGTTAGAAACTT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1781  TATATTGCCAAATTTCCACCCCACCCCGTGCATTCACATACCTGGCGAGGTTAGAAACTT  1840
+
+Query  61    ACTAGAACTGTGCCAGGTAGAAACCATTTTAGAAGTCAAC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1841  ACTAGAACTGTGCCAGGTAGAAACCATTTTAGAAGTCAAC  1880
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_46 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TTTGCCGCAAATTCCAACCACTCTACGCAACTGAGGCCAAGAGAGTCTACGCTTTAGAGA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4333  TTTGCCGCAAATTCCAACCACTCTACGCAACTGAGGCCAAGAGAGTCTACGCTTTAGAGA  4392
+
+Query  61    AAAGGATGAATAACTACATGCAGTTCAAGAGCAAACACCG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  4393  AAAGGATGAATAACTACATGCAGTTCAAGAGCAAACACCG  4432
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_47 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TGGGATCGTCAAAGTCAGAATATTCCTTAGTCATCAGAATATACATGAGAATGAAGCACG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3151  TGGGATCGTCAAAGTCAGAATATTCCTTAGTCATCAGAATATACATGAGAATGAAGCACG  3210
+
+Query  61    TCAGAGCGTGGATACCTCGGCCGATGCGCAATCAGAACTA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3211  TCAGAGCGTGGATACCTCGGCCGATGCGCAATCAGAACTA  3250
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_48 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     CTACATTTGGAGAGCACAAGCAAGAGAAGGATCTCGAGTATGGGGCATGCCCGAATAACA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3064  CTACATTTGGAGAGCACAAGCAAGAGAAGGATCTCGAGTATGGGGCATGCCCGAATAACA  3123
+
+Query  61    TGATGGGCACATTCTCAGTGCGGACTGTGGGATCGTCAAA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3124  TGATGGGCACATTCTCAGTGCGGACTGTGGGATCGTCAAA  3163
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_49 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     AAAGGGGAGTCTCGCCTGATTGAGGCTAGCAGCTTAAATGATCCTGTCTACCCTAGATTG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  6444  AAAGGGGAGTCTCGCCTGATTGAGGCTAGCAGCTTAAATGATCCTGTCTACCCTAGATTG  6503
+
+Query  61    ACTTTTGGACACCTTTATGAAGTGTTTCACGCCAACCCAG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  6504  ACTTTTGGACACCTTTATGAAGTGTTTCACGCCAACCCAG  6543
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_50 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     AGCCCAAGCAGGGAAAGGTGAGTTGTGTGCAGTGTTCAGGGCCGACCCTGGGAGGGATGG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1934  AGCCCAAGCAGGGAAAGGTGAGTTGTGTGCAGTGTTCAGGGCCGACCCTGGGAGGGATGG  1993
+
+Query  61    TCCTTGGCAATCCACCATGCTAGGCCAGTTGTGTGGATAT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1994  TCCTTGGCAATCCACCATGCTAGGCCAGTTGTGTGGATAT  2033
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_51 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     CTTGGTGTGGGAAGACAGCTCTAGAGACCTCCTAGTTTCTTCAACTACCGCTCAAGGGTG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3419  CTTGGTGTGGGAAGACAGCTCTAGAGACCTCCTAGTTTCTTCAACTACCGCTCAAGGGTG  3478
+
+Query  61    TGACACCATTGCTCGATGTAACTGCCAAACCGGAGTGTAT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3479  TGACACCATTGCTCGATGTAACTGCCAAACCGGAGTGTAT  3518
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_52 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GAAAATGGTAGCTTATGGAGATGACGTGTTGGCCAGCTACCCGTTTCCTATTGATTGCTT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  6902  GAAAATGGTAGCTTATGGAGATGACGTGTTGGCCAGCTACCCGTTTCCTATTGATTGCTT  6961
+
+Query  61    GGAATGGGGTAAAACAGGCAAAGAATATGGGCTGACTATG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  6962  GGAATGGGGTAAAACAGGCAAAGAATATGGGCTGACTATG  7001
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_53 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     AGAGCAGGCTTAGTTGGGGAGATAGATCTTCCTCTAAAGGGCACCACCAATCCGAACGGG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2694  AGAGCAGGCTTAGTTGGGGAGATAGATCTTCCTCTAAAGGGCACCACCAATCCGAACGGG  2753
+
+Query  61    TATGCCAACTGGGACATAGACATAACCGGTTATGCGCAGA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  2754  TATGCCAACTGGGACATAGACATAACCGGTTATGCGCAGA  2793
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_54 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GAAACCTGGCACTAATCAGTTCTTAACCACGGATGATGGTGTGTCAGCACCTATATTGCC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1730  GAAACCTGGCACTAATCAGTTCTTAACCACGGATGATGGTGTGTCAGCACCTATATTGCC  1789
+
+Query  61    AAATTTCCACCCCACCCCGTGCATTCACATACCTGGCGAG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1790  AAATTTCCACCCCACCCCGTGCATTCACATACCTGGCGAG  1829
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_55 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     AAAGAGGAGTTATTTTGCCAGCGAGCAAGGAGAGATCCAGTGGATGAAGCCTAACAGAGA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5909  AAAGAGGAGTTATTTTGCCAGCGAGCAAGGAGAGATCCAGTGGATGAAGCCTAACAGAGA  5968
+
+Query  61    AACCGGGAGGTTGAATATTAATGGTCCAACCCGAACTAAG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5969  AACCGGGAGGTTGAATATTAATGGTCCAACCCGAACTAAG  6008
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_56 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TTAACTCACATAGCACAGCTGAAACCACCCTTGATAGTTTCTTCAGCAGAGCAGGCTTAG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2647  TTAACTCACATAGCACAGCTGAAACCACCCTTGATAGTTTCTTCAGCAGAGCAGGCTTAG  2706
+
+Query  61    TTGGGGAGATAGATCTTCCTCTAAAGGGCACCACCAATCC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  2707  TTGGGGAGATAGATCTTCCTCTAAAGGGCACCACCAATCC  2746
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_57 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     ACCCTGTGAAGGACATCTTTACTGAAATGGCAGCGCCCTTAAAGTCTCCCTCTGCTGAAG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  907   ACCCTGTGAAGGACATCTTTACTGAAATGGCAGCGCCCTTAAAGTCTCCCTCTGCTGAAG  966
+
+Query  61    CATGTGGCTATAGCGACCGAGTGGCACAGCTTACCATTGG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  967   CATGTGGCTATAGCGACCGAGTGGCACAGCTTACCATTGG  1006
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_58 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               180     4e-49
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 180 bits (97),  Expect = 4e-49
+ Identities = 99/100 (99%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     CATTGGAACAGTGGCAGGCGGCACAGGCACAGAGAACAGTCACCCTCCTTATAAACAAAC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1343  CATTGGAACAGTGGCAGGCGGCACAGGCACAGAGAACAGTCACCCTCCTTATAAACAAAC  1402
+
+Query  61    CCAACCCGGCGCTTATGGATTTGAATTACAACATCCATAT  100
+             ||||||||||||| ||||||||||||||||||||||||||
+Sbjct  1403  CCAACCCGGCGCTGATGGATTTGAATTACAACATCCATAT  1442
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_59 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TTAGTCATCAGAATATACATGAGAATGAAGCACGTCAGAGCGTGGATACCTCGGCCGATG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3177  TTAGTCATCAGAATATACATGAGAATGAAGCACGTCAGAGCGTGGATACCTCGGCCGATG  3236
+
+Query  61    CGCAATCAGAACTATTTGTTCAAATCCAACCCAAACTATG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3237  CGCAATCAGAACTATTTGTTCAAATCCAACCCAAACTATG  3276
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_60 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     CAAACATAATAGTTGGGTATGGTGAGTGGCCTTCATACTGCTCTGATAATGATGCAACAG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1036  CAAACATAATAGTTGGGTATGGTGAGTGGCCTTCATACTGCTCTGATAATGATGCAACAG  1095
+
+Query  61    CGGTAGACAAACCTACACGGCCTGATGTCTCAGTAAATAG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1096  CGGTAGACAAACCTACACGGCCTGATGTCTCAGTAAATAG  1135
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_61 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     AGAACAGCCACGGTCCAAGGGCCCAGCTTAGACTTCGCCTTGTCTCTTTTGAGGCGCAAC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5370  AGAACAGCCACGGTCCAAGGGCCCAGCTTAGACTTCGCCTTGTCTCTTTTGAGGCGCAAC  5429
+
+Query  61    ATTAGACAAGCGCAAACTGACCAAGGACACTTCACCATGC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5430  ATTAGACAAGCGCAAACTGACCAAGGACACTTCACCATGC  5469
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_62 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     ACCCGGCGCTGATGGATTTGAATTACAACATCCATATGTTCTTGATGCTGGAATTCCAAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1406  ACCCGGCGCTGATGGATTTGAATTACAACATCCATATGTTCTTGATGCTGGAATTCCAAT  1465
+
+Query  61    ATCTCAGTTGACAGTGTGCCCTCACCAGTGGATCAATTTA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1466  ATCTCAGTTGACAGTGTGCCCTCACCAGTGGATCAATTTA  1505
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_63 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     ACAGCTCTAGAGACCTCCTAGTTTCTTCAACTACCGCTCAAGGGTGTGACACCATTGCTC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3433  ACAGCTCTAGAGACCTCCTAGTTTCTTCAACTACCGCTCAAGGGTGTGACACCATTGCTC  3492
+
+Query  61    GATGTAACTGCCAAACCGGAGTGTATTACTGTAACTCTCG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3493  GATGTAACTGCCAAACCGGAGTGTATTACTGTAACTCTCG  3532
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_64 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     AGCCAGCCCCAGATGCCATTAGCGATCTCCTCGCTAGTGTAGATAGCGAGGAGGTGCGTC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5107  AGCCAGCCCCAGATGCCATTAGCGATCTCCTCGCTAGTGTAGATAGCGAGGAGGTGCGTC  5166
+
+Query  61    AGTACTGCAGGGAACAAGGCTGGATCATCCCTGAAACTCC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5167  AGTACTGCAGGGAACAAGGCTGGATCATCCCTGAAACTCC  5206
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_65 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GCTCCGAAGGGGCTGTTGAGAAGATCTTGAAGAACTTGGTGAAGCTAATTTCAGCCTTAG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3880  GCTCCGAAGGGGCTGTTGAGAAGATCTTGAAGAACTTGGTGAAGCTAATTTCAGCCTTAG  3939
+
+Query  61    TTATAGTCATCAGAAGTGATTATGATATGGTCACCCTCAC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3940  TTATAGTCATCAGAAGTGATTATGATATGGTCACCCTCAC  3979
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_66 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     CATACCATGGATCAGTAACACTCACTATAGGGCGCATGCTCGAGATGGGGTGTTTGATTA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2216  CATACCATGGATCAGTAACACTCACTATAGGGCGCATGCTCGAGATGGGGTGTTTGATTA  2275
+
+Query  61    CTACACCACAGGTTTGGTTAGTATATGGTACCAAACAAAT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  2276  CTACACCACAGGTTTGGTTAGTATATGGTACCAAACAAAT  2315
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_67 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     AGTGTATCCCAGAAGTGATCACCGGGGCGAGTGACGCAACTCTAGTCATCAACACTGAGC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5650  AGTGTATCCCAGAAGTGATCACCGGGGCGAGTGACGCAACTCTAGTCATCAACACTGAGC  5709
+
+Query  61    ACATTCCCTCAATGTTTGTGCCGGTGGGTGACGTTGTGCA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5710  ACATTCCCTCAATGTTTGTGCCGGTGGGTGACGTTGTGCA  5749
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_68 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     ATTCCAGCTGCCAAAGAGAAAGTTGAGTTTTTGAACAACCTAAAACAGCTCCCCTTGTTG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4185  ATTCCAGCTGCCAAAGAGAAAGTTGAGTTTTTGAACAACCTAAAACAGCTCCCCTTGTTG  4244
+
+Query  61    GAGAACCAAGTCTCCAATCTTGAACAGTCTGCTGCCTCAC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  4245  GAGAACCAAGTCTCCAATCTTGAACAGTCTGCTGCCTCAC  4284
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_69 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     AGAGTATGATTGAGACTCGGTGTGTTCTTAACTCACATAGCACAGCTGAAACCACCCTTG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2620  AGAGTATGATTGAGACTCGGTGTGTTCTTAACTCACATAGCACAGCTGAAACCACCCTTG  2679
+
+Query  61    ATAGTTTCTTCAGCAGAGCAGGCTTAGTTGGGGAGATAGA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  2680  ATAGTTTCTTCAGCAGAGCAGGCTTAGTTGGGGAGATAGA  2719
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_70 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GAGTAAGGCCCTCACCCCAGCTTTACCTGCACCCACAGGCCCAGACACCCAAGTGAGCAG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2486  GAGTAAGGCCCTCACCCCAGCTTTACCTGCACCCACAGGCCCAGACACCCAAGTGAGCAG  2545
+
+Query  61    TCATCGCTTAGACACTGGAAAAGTACCAGCACTTCAAGCC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  2546  TCATCGCTTAGACACTGGAAAAGTACCAGCACTTCAAGCC  2585
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_71 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     CCAAGGGGTGGTACTGGAAGTTCCCAGATGTACTGACTGAAACCGGAGTTTTTGGTCCAA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1174  CCAAGGGGTGGTACTGGAAGTTCCCAGATGTACTGACTGAAACCGGAGTTTTTGGTCCAA  1233
+
+Query  61    ATGCACAATTTCACTACTTATACCGTTCAGGGTTCTGCAT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1234  ATGCACAATTTCACTACTTATACCGTTCAGGGTTCTGCAT  1273
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_72 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     CTTACACACCCCCAGGGGGCCCTTTGCCTAAAGATAGAGCCACAGCTATGCTGGGGACGC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2113  CTTACACACCCCCAGGGGGCCCTTTGCCTAAAGATAGAGCCACAGCTATGCTGGGGACGC  2172
+
+Query  61    ACGTCATCTGGGACTTTGGCTTGCAATCGTCCGTCACCCT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  2173  ACGTCATCTGGGACTTTGGCTTGCAATCGTCCGTCACCCT  2212
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_73 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     AGACACCTAGCCACCCATACTGACTGGGCCAACTTGGTGTGGGAAGACAGCTCTAGAGAC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3387  AGACACCTAGCCACCCATACTGACTGGGCCAACTTGGTGTGGGAAGACAGCTCTAGAGAC  3446
+
+Query  61    CTCCTAGTTTCTTCAACTACCGCTCAAGGGTGTGACACCA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3447  CTCCTAGTTTCTTCAACTACCGCTCAAGGGTGTGACACCA  3486
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_74 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TTTGGACACCTTTATGAAGTGTTTCACGCCAACCCAGGGACTGTAACAGGATCTGCAGTT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  6507  TTTGGACACCTTTATGAAGTGTTTCACGCCAACCCAGGGACTGTAACAGGATCTGCAGTT  6566
+
+Query  61    GGGTGCAACCCTGATGTATTTTGGAGCAAGTTACCAATTT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  6567  GGGTGCAACCCTGATGTATTTTGGAGCAAGTTACCAATTT  6606
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_75 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     AGAAGCTAGTGAGTATTATCCAGCTAGATATCAGTCCCATCTTATGCTTGCTGAGGGCCA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3581  AGAAGCTAGTGAGTATTATCCAGCTAGATATCAGTCCCATCTTATGCTTGCTGAGGGCCA  3640
+
+Query  61    TTCAGAACCTGGTGATTGTGGCGGTATTCTTAGATGCCAA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3641  TTCAGAACCTGGTGATTGTGGCGGTATTCTTAGATGCCAA  3680
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_76 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     CCTGGTGATTGTGGCGGTATTCTTAGATGCCAACACGGTGTGGTGGGAATTGTCTCCACT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3648  CCTGGTGATTGTGGCGGTATTCTTAGATGCCAACACGGTGTGGTGGGAATTGTCTCCACT  3707
+
+Query  61    GGCGGAAGTGGCCTTGTGGGATTTGCTGACGTTAGAGATC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3708  GGCGGAAGTGGCCTTGTGGGATTTGCTGACGTTAGAGATC  3747
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_77 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     AAAAGACATGTCCCTATTTTGTCAAATGGTTTCTACAGTAGATTTTGTACCACCCATGGC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4628  AAAAGACATGTCCCTATTTTGTCAAATGGTTTCTACAGTAGATTTTGTACCACCCATGGC  4687
+
+Query  61    ATCACTAGAGGAGAAAGGAGTGTCCTTCACCTCTAAGTTT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  4688  ATCACTAGAGGAGAAAGGAGTGTCCTTCACCTCTAAGTTT  4727
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_78 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1    CGTGAAGAGTCTATTGAGCTAGTTAGTAGTCCTCCGGCCCCTGAATGCGGCTAATCCTAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  419  CGTGAAGAGTCTATTGAGCTAGTTAGTAGTCCTCCGGCCCCTGAATGCGGCTAATCCTAA  478
+
+Query  61   CTGCGGAGCACATACCCTTAATCCAAAGGGCAGTGTGTCG  100
+            ||||||||||||||||||||||||||||||||||||||||
+Sbjct  479  CTGCGGAGCACATACCCTTAATCCAAAGGGCAGTGTGTCG  518
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_79 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1    ACAAAGACTCGTATGCTGCCACTGCTGGAAAGCAAAGTCTCAAACAAGATCCTGACAAGT  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  841  ACAAAGACTCGTATGCTGCCACTGCTGGAAAGCAAAGTCTCAAACAAGATCCTGACAAGT  900
+
+Query  61   TTGCGAACCCTGTGAAGGACATCTTTACTGAAATGGCAGC  100
+            ||||||||||||||||||||||||||||||||||||||||
+Sbjct  901  TTGCGAACCCTGTGAAGGACATCTTTACTGAAATGGCAGC  940
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_80 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GCGCAAACTGACCAAGGACACTTCACCATGCTAGGAGTGCGAGATCGCCTAGCCATCCTG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5439  GCGCAAACTGACCAAGGACACTTCACCATGCTAGGAGTGCGAGATCGCCTAGCCATCCTG  5498
+
+Query  61    CCGCGCCACTCGCAACCAGGGAAGACCATCTGGGTAGAGC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5499  CCGCGCCACTCGCAACCAGGGAAGACCATCTGGGTAGAGC  5538
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_81 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TTGTGGGATTTGCTGACGTTAGAGATCTTCTGTGGCTAGATGAGGAAGCGATGGAGCAGG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3721  TTGTGGGATTTGCTGACGTTAGAGATCTTCTGTGGCTAGATGAGGAAGCGATGGAGCAGG  3780
+
+Query  61    GGGTATCTGATTACATCAAAGGTCTCGGTCGAGCCTTCGG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3781  GGGTATCTGATTACATCAAAGGTCTCGGTCGAGCCTTCGG  3820
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_82 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TGTGGTAAGGCTATTCAGCTGAGAGACAGGAAGTCCAAAGTGAGATATAGCGTCGACACC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4932  TGTGGTAAGGCTATTCAGCTGAGAGACAGGAAGTCCAAAGTGAGATATAGCGTCGACACC  4991
+
+Query  61    GTGGTATCGGAACTGATCAGAGAGTACAACAATAGATCTG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  4992  GTGGTATCGGAACTGATCAGAGAGTACAACAATAGATCTG  5031
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_83 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GCCCACCAACGCAACCAGTTTGATGGAAAGGCTACGGTTTCCAGTGTCAGCCCAAGCAGG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1886  GCCCACCAACGCAACCAGTTTGATGGAAAGGCTACGGTTTCCAGTGTCAGCCCAAGCAGG  1945
+
+Query  61    GAAAGGTGAGTTGTGTGCAGTGTTCAGGGCCGACCCTGGG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1946  GAAAGGTGAGTTGTGTGCAGTGTTCAGGGCCGACCCTGGG  1985
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_84 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GTCCATCGCCACTGTGGTTGCAGTTGTGTCTCTTGTTTATGTCATTTATAAGCTGTTTGC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5252  GTCCATCGCCACTGTGGTTGCAGTTGTGTCTCTTGTTTATGTCATTTATAAGCTGTTTGC  5311
+
+Query  61    CGGGTTCCAGGGTGCTTACTCTGGAGCGCCCAAGCCCATT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5312  CGGGTTCCAGGGTGCTTACTCTGGAGCGCCCAAGCCCATT  5351
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_85 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GGTGACGTTGTGCAGTACGGTTTCTTGAACCTTAGTGGTAAACCCACACACAGAACCATG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5736  GGTGACGTTGTGCAGTACGGTTTCTTGAACCTTAGTGGTAAACCCACACACAGAACCATG  5795
+
+Query  61    ATGTATAACTTCCCCACGAAGCCAGGACAGTGTggggggg  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5796  ATGTATAACTTCCCCACGAAGCCAGGACAGTGTGGGGGGG  5835
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_86 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     ACTTTTATGTTCACCGGATCCTTTATGGCAACTGGTAAAATGCTTATAGCTTACACACCC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2064  ACTTTTATGTTCACCGGATCCTTTATGGCAACTGGTAAAATGCTTATAGCTTACACACCC  2123
+
+Query  61    CCAGGGGGCCCTTTGCCTAAAGATAGAGCCACAGCTATGC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  2124  CCAGGGGGCCCTTTGCCTAAAGATAGAGCCACAGCTATGC  2163
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_87 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GGTTCACTCTTTGCATTTGACTACTCAGGATATGATGCAAGCCTTAGTCCTGTGTGGTTC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  6615  GGTTCACTCTTTGCATTTGACTACTCAGGATATGATGCAAGCCTTAGTCCTGTGTGGTTC  6674
+
+Query  61    AGAGCTCTAGAGTTGGTTCTGAGAGAGATCGGTTACTCGG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  6675  AGAGCTCTAGAGTTGGTTCTGAGAGAGATCGGTTACTCGG  6714
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_88 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     CTCAGGCTGCTCCGGTACTTCCATTTTCAATTCCATGATTAACAACATAATCATCAGAAC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  6800  CTCAGGCTGCTCCGGTACTTCCATTTTCAATTCCATGATTAACAACATAATCATCAGAAC  6859
+
+Query  61    CCTCCTGATTAAAACATTCAAAGGTATAGACTTAGATGAG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  6860  CCTCCTGATTAAAACATTCAAAGGTATAGACTTAGATGAG  6899
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_89 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1    GGCTAATCCTAACTGCGGAGCACATACCCTTAATCCAAAGGGCAGTGTGTCGTAACGGGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  467  GGCTAATCCTAACTGCGGAGCACATACCCTTAATCCAAAGGGCAGTGTGTCGTAACGGGC  526
+
+Query  61   AACTCTGCAGCGGAACCGACTACTTTGGGTGTCCGTGTTT  100
+            ||||||||||||||||||||||||||||||||||||||||
+Sbjct  527  AACTCTGCAGCGGAACCGACTACTTTGGGTGTCCGTGTTT  566
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_90 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TGTATTCCATGATGTGTTCGAGGGCAACAAGGAACCAGCGGTCCTGACTAGTAAGGACCC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  6020  TGTATTCCATGATGTGTTCGAGGGCAACAAGGAACCAGCGGTCCTGACTAGTAAGGACCC  6079
+
+Query  61    CAGACTTGAGGTTGATTTTGAGCAAGCTTTGTTCTCCAAG  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  6080  CAGACTTGAGGTTGATTTTGAGCAAGCTTTGTTCTCCAAG  6119
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_91 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     ACAGTGTgggggggTGGTTACCTCAGTTGGTAAGATCATTGGAATCCACATTGGCGGGAA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5822  ACAGTGTGGGGGGGTGGTTACCTCAGTTGGTAAGATCATTGGAATCCACATTGGCGGGAA  5881
+
+Query  61    TGGACGCCAGGCCTTTTGCGCTGGCCTAAAGAGGAGTTAT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5882  TGGACGCCAGGCCTTTTGCGCTGGCCTAAAGAGGAGTTAT  5921
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_92 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GATCAGTCCCCATTGGAAGGGCTTTAGCAATTCCAAATTTGGAGAACTTGAGAAGAAATT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  7249  GATCAGTCCCCATTGGAAGGGCTTTAGCAATTCCAAATTTGGAGAACTTGAGAAGAAATT  7308
+
+Query  61    GGCTCGAGTTATTTTAAACTTACAGCTCAATGCTGAACCC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  7309  GGCTCGAGTTATTTTAAACTTACAGCTCAATGCTGAACCC  7348
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_93 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TATCCCAGAAGTGATCACCGGGGCGAGTGACGCAACTCTAGTCATCAACACTGAGCACAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5654  TATCCCAGAAGTGATCACCGGGGCGAGTGACGCAACTCTAGTCATCAACACTGAGCACAT  5713
+
+Query  61    TCCCTCAATGTTTGTGCCGGTGGGTGACGTTGTGCAGTAC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5714  TCCCTCAATGTTTGTGCCGGTGGGTGACGTTGTGCAGTAC  5753
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_94 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     CAGTTGTGTGGATATTACACCCAATGGTCAGGGTCTTTGGAAGTCACTTTTATGTTCACC  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2019  CAGTTGTGTGGATATTACACCCAATGGTCAGGGTCTTTGGAAGTCACTTTTATGTTCACC  2078
+
+Query  61    GGATCCTTTATGGCAACTGGTAAAATGCTTATAGCTTACA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  2079  GGATCCTTTATGGCAACTGGTAAAATGCTTATAGCTTACA  2118
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_95 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     CAGCTCCCCTTGTTGGAGAACCAAGTCTCCAATCTTGAACAGTCTGCTGCCTCACAAGAA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4230  CAGCTCCCCTTGTTGGAGAACCAAGTCTCCAATCTTGAACAGTCTGCTGCCTCACAAGAA  4289
+
+Query  61    GACTTAGAAGCTATGTTTGGTAATGTGATATATCTGGCTC  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  4290  GACTTAGAAGCTATGTTTGGTAATGTGATATATCTGGCTC  4329
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_96 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     GAGATCTTCTGTGGCTAGATGAGGAAGCGATGGAGCAGGGGGTATCTGATTACATCAAAG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3742  GAGATCTTCTGTGGCTAGATGAGGAAGCGATGGAGCAGGGGGTATCTGATTACATCAAAG  3801
+
+Query  61    GTCTCGGTCGAGCCTTCGGCACAGGTTTCACTGACGCAGT  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3802  GTCTCGGTCGAGCCTTCGGCACAGGTTTCACTGACGCAGT  3841
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_97 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     AGACCATCTGGGTAGAGCATAAATTAATCAATGTACTAGATGCAGTTGAGTTGGTGGATG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5521  AGACCATCTGGGTAGAGCATAAATTAATCAATGTACTAGATGCAGTTGAGTTGGTGGATG  5580
+
+Query  61    AGCAAGGTGTAAACTTGGAACTCACACTGGTAACTTTGGA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  5581  AGCAAGGTGTAAACTTGGAACTCACACTGGTAACTTTGGA  5620
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+Query= contig_98 len=100
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+EVA71_BrCr_U22521 EVA71                                               185     8e-51
+
+
+>EVA71_BrCr_U22521 EVA71
+Length=7408
+
+ Score = 185 bits (100),  Expect = 8e-51
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1     TATCCAGCTAGATATCAGTCCCATCTTATGCTTGCTGAGGGCCATTCAGAACCTGGTGAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3597  TATCCAGCTAGATATCAGTCCCATCTTATGCTTGCTGAGGGCCATTCAGAACCTGGTGAT  3656
+
+Query  61    TGTGGCGGTATTCTTAGATGCCAACACGGTGTGGTGGGAA  100
+             ||||||||||||||||||||||||||||||||||||||||
+Sbjct  3657  TGTGGCGGTATTCTTAGATGCCAACACGGTGTGGTGGGAA  3696
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650848
+
+
+  Database: ../data/eva71.fna
+    Posted date:  Oct 9, 2024  8:42 PM
+  Number of letters in database: 7,408
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
