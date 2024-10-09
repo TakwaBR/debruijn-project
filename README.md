@@ -1,11 +1,8 @@
-# Assembleur basé sur les graphes de Debruijn
-
-Vous trouverez la description complète du TP [ici]( 
-https://docs.google.com/document/d/1P4v3bHbSurD7RXA-ldVwmtNKGvWsnBae51RMGye_KLs/edit?usp=sharing).
+# De Bruijn Graph Assembly
 
 ## Introduction
 
-The objective of this project is to assemble the genome of Enterovirus A71. This genome is of particular interest because it is very short: 7408 nucleotides, linear, and non-segmented. The FASTQ file we have was generated using the ART program [Huang 2011]. 
+This Python program performs sequence assembly based on de Bruijn graphs. It reads sequences from a FASTQ file, constructs a de Bruijn graph, simplifies it by removing bubbles, and extracts contiguous sequences (contigs) which are then saved to a FASTA file.
 
 In the debruijn-tp/data/ trajectory, we have:
 eva71.fna : genome of the virus of interest
